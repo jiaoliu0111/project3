@@ -19,7 +19,8 @@
         class="lizi"
       >
       </vue-particles>
-    <router-view></router-view>
+        <router-view></router-view>
+
   </div>
 </template>
 
@@ -29,5 +30,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.lizi {
+  width: 590px;
+  height: 470px;
+  background:transparent;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
 </style>

@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+import '@/assets/css/style.css'
 import 'swiper/dist/css/swiper.css'
 import VueParticles from 'vue-particles'
 Vue.use(VueParticles)
