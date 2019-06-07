@@ -32,11 +32,11 @@ export default {
 
 <style scoped>
 .lizi {
-  width: 590px;
-  height: 470px;
+  width: 530px;
+  height: 450px;
   background:transparent;
   position: fixed;
-  left: 0;
+  left: 30px;
   top: 0;
   z-index: 999;
 }
